@@ -29,6 +29,11 @@ body {
     font-size: 50px;
 }
 
+#JMPortrait {
+    width: 302px;
+    height: 403px;
+}
+
 .card-img {
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,14 +42,14 @@ body {
     width: 300px;
 }
 
-#dashboard-title {
+#project-title {
     visibility: hidden;
 }
 
-#dashboard-card:hover #dashboard-title {
+#project-card:hover #project-title {
     visibility: visible;
 }
 
-#dashboard-card:hover #dashboard-image {
+#project-card:hover #project-image {
     opacity: 70%;
 }
