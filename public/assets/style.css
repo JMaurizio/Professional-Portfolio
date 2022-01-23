@@ -7,3 +7,19 @@ body {
 #intro {
     height: 575px;
 }
+.card-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 250px;
+    width: 300px;
+}
+#dashboard-title {
+    visibility: hidden;
+}
+#dashboard-card:hover #dashboard-title {
+    visibility: visible;
+}
+#dashboard-card:hover #dashboard-image {
+    opacity: 70%;
+}
