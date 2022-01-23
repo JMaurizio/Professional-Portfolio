@@ -1,12 +1,34 @@
 body {
     background: black;
 }
+
 #main-nav {
     height: 575px;
 }
+
 #intro {
     height: 575px;
 }
+
+#nav-text {
+    visibility: hidden;
+    display: none;
+}
+
+#nav-icon {
+    font-size: 30px;
+}
+
+#nav-icon:hover #nav-text {
+    visibility: visible;
+    display: block;
+    font-size: large;
+}
+
+#nav-icon:hover {
+    font-size: 50px;
+}
+
 .card-img {
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,12 +36,15 @@ body {
     height: 250px;
     width: 300px;
 }
+
 #dashboard-title {
     visibility: hidden;
 }
+
 #dashboard-card:hover #dashboard-title {
     visibility: visible;
 }
+
 #dashboard-card:hover #dashboard-image {
     opacity: 70%;
 }
