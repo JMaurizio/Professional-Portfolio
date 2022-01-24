@@ -1,22 +1,35 @@
+:root {
+    --primary:#34421E;
+    --secondary:#F1F1EF;
+    --tertiary:#C19434;
+}
+
 body {
-    background: black;
+    background: var(--primary);
+}
+
+p {
+    color: var(--secondary);
 }
 
 #main-nav {
     height: 575px;
-}
-
-#intro {
-    height: 575px;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-color: var(--tertiary);
 }
 
 #nav-text {
     visibility: hidden;
     display: none;
+    color: var(--tertiary);
 }
 
 #nav-icon {
     font-size: 30px;
+    color: var(--tertiary);
 }
 
 #nav-icon:hover #nav-text {
@@ -29,9 +42,8 @@ body {
     font-size: 50px;
 }
 
-#vl {
-    background-color: white; 
-    height: 550px;
+#JMText {
+    color: var(--tertiary);
 }
 
 #JMPortrait {
@@ -49,6 +61,7 @@ body {
 
 #project-title {
     visibility: hidden;
+    color: var(--tertiary);
 }
 
 #project-card:hover #project-title {
