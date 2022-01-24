@@ -29,6 +29,11 @@ body {
     font-size: 50px;
 }
 
+#vl {
+    background-color: white; 
+    height: 550px;
+}
+
 #JMPortrait {
     width: 302px;
     height: 403px;
